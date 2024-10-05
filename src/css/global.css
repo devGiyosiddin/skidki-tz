@@ -6,6 +6,9 @@
     --header-text-color: #001c1c;
     --logo-color: #023131;
     --tomato: #ff2e4c;
+    --daypromo-bg-color: #f0f6f6;
+    --promo-count-color: #607282;
+    --border-color: #bedada;
 }
 
 html {
@@ -67,7 +70,6 @@ img {
 .main-content{
     flex-grow: 1;
 }
-
 
 
 /* RETINA */

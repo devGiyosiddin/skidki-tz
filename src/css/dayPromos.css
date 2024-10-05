@@ -1,0 +1,115 @@
+.daypromo {
+    width: 290px;
+    padding: 20px;
+    background: var(--daypromo-bg-color);
+}
+.daypromo-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 115%;
+    color: var(--logo-color);
+    margin: 0;
+    margin-bottom: 8px;
+}
+.promo-count {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--promo-count-color);
+    margin: 0;
+    margin-bottom: 20px;
+}
+.daypromo-card {
+    width: 250px;
+    border-bottom: 1px dashed var(border-color);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.daypromo-img {
+    width: 250px;
+    height: 135px;
+}
+.daypromo-info {
+    padding: 12px;
+}
+.daypromo-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--promo-count-color);
+    margin-bottom: 4px;
+}
+.daypromo-info__heading {
+    width: 226px;
+    height: 50px;
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--header-text-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+}
+.daypromo-info__footer {
+    height: 53px;
+    color: var(--promo-count-color);
+}
+.ddyif-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.ddyif-wrapper * {
+    margin: 0;
+}
+.dayif-wrapper__head {
+    display: flex;
+    justify-content: space-between;
+}
+.dayif-wrapper__promos {
+    display: flex;
+}
+.ddyif-text {
+}
+.dayif-wrapper__promos {
+    float: right;
+}
+.dayif-cashback {
+    width: 65px;
+    height: 29px;
+    border: 1px solid var(--promo-count-color);
+    border-radius: 4px;
+    padding: 4px 8px 5px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--promo-count-color);
+    border-radius: 4px;
+
+}
+.dayif-percent {
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #fff;
+    background-color: var(--promo-count-color);
+    border-radius: 4px;
+}
+.daif-text:first-child {
+    margin-bottom: 4px;
+}
+.daif-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.show-more__button {
+    color: var(--text-color);
+    background-color: #fff;
+}
+.show-more__button:after {
+    box-shadow: 0px 0px 0px 3px var(--daypromo-bg-color);
+}
