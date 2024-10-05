@@ -3,14 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-  
+  <title>Скидки и Акции</title>
+  <!-- FAVICON -->
+  <link rel="icon" href="public/favicon.ico">
   <!-- STYLES -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-  
-  <script src="js/main.js"></script>
+  <!-- Header -->
+   <header class="header">
+    <div class="container site-header-wrapper">
+      <a href="index.html" class="header-logo">
+        Logo
+      </a>
+      <nav class="sitenav">
+        <div class="sitenav-wrapper">
+          <ul class="sitenav-list">
+            <li class="sitenav-item">
+              <a href="" class="sitenav-item__link">
+                <img class="sitenav-item__icon" src="public/all-categories.svg" alt="icon">
+                Все предложения
+              </a>
+            </li>
+            <li class="sitenav-item">
+              <a href="#" class="sitenav-item__link">Скидки</a>
+            </li>
+            <li class="sitenav-item">
+              <a href="#" class="sitenav-item__link">Акции</a>
+            </li>
+            <li class="sitenav-item">
+              <a href="#" class="sitenav-item__link">Промокоды</a>
+            </li>
+            <li class="sitenav-item">
+              <a href="#" class="sitenav-item__link">Кешбэк</a>
+            </li>
+          </ul>
+          <ul class="sitenav-actions">
+            <li class="sitenav-actions__item">
+              <img src="public/search.png" alt="search icon">
+            </li>
+            <li class="sitenav-actions__item">
+              <a href="https://t.me/dc_cyrex">
+                <img src="public/telegram.svg" alt="telegram icon">
+              </a>
+            </li>
+            <li class="sitenav-actions__item">
+              <img src="public/cabinet.png" alt="icon">
+            </li>
+            <li class="sitenav-actions__item">
+              <button class="language-button" type="button">Ру</button>
+            </li>
+          </ul>
+        </div>
+        <button class="button__add-promotions" type="button">Добавить скидку</button>
+      </nav>
+      <div class="sitenav-mobile">
+        <button class="search-button actions-button" type="button">
+          <img src="public/search.png" alt="search icon">
+        </button>
+        <button class="language-button actions-button" type="button">Ру</button>
+        <button class="menu-button actions-button" type="button">
+          <img src="public/menu.svg" alt="search icon">
+        </button>
+      </div>
+    </div>
+   </header>
+  <script src="src/js/main.js"></script>
 </body>
 </html>
