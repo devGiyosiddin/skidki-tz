@@ -1,0 +1,130 @@
+/* WELCOME */
+.welcome {
+    margin-top: 10px;
+}
+.welcome p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.welcome-heading {
+    color: var(--logo-color);
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.welcome-text {
+    color: var(--header-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 0;
+    margin: 0;
+}
+.welcome-expandtext {
+    cursor: pointer;
+}
+
+
+/* FAQ */
+.faq {}
+.faq-title {
+    color: var(--logo-color);
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.15;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* ACCORDION */
+.faq-accordions {
+    width: 970px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.faq-accordions__item {
+    width: 100%;
+    border-bottom: 1px solid #bedada;
+    padding: 0px 0px 25px 0px;
+}
+
+.faq-accordions__item-content {
+    max-height: 0;
+    width: 750px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+    transition: 0.3s ease;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.faq-accordions__item-label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--logo-color);
+}
+
+.faq-accordions__item-span {
+    margin-left: auto;
+    transition: 0.3s ease;
+}
+
+.faq-accordions__item-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    color: #bedada;
+    transition: 0.3s ease;
+}
+.faq-accordions__item-icon:hover {
+    color: var(--tomato);
+}
+
+.faq-accordions__item-input {
+    display: none;
+}
+
+.faq-accordions__item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.faq-accordions__item-input:checked ~ .faq-accordions__item-content {
+    max-height: 182px;
+    margin-top: 15px;
+}
+.faq-accordions__item-input:checked + .faq-accordions__item-label {
+    color: var(--text-color);
+}
+.faq-accordions__item-input:checked + .faq-accordions__item-label .faq-accordions__item-span {
+    transform: rotate(45deg);
+}
+
+.faq-accordions__item-text {
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+.faq-accordions__item-text:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.faq-accordions__item-text-link {
+    text-decoration: none;
+    color: var(--tomato);
+}

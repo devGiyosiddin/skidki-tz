@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- Header -->
-   <header class="header">
+  <header class="header">
     <div class="container site-header-wrapper">
       <a href="index.html" class="header-logo">
         Logo
@@ -67,21 +67,21 @@
         </button>
       </div>
     </div>
-   </header>
-   <main class="main-content">
-    <div class="container">
+  </header>
+  <main class="main-content">
+    <div class="container main-content__container">
       <div class="daypromo">
         <h2 class="daypromo-title">Скидки дня</h2>
         <p class="promo-count">23 предложения</p>
         <div class="daypromo-card">
-          <img src="public/day-promos/korzinka.jpg" alt="Korzinka image" class="daypromo-img" width="250" width="135">
+          <img src="public/day-promos/korzinka.jpg" alt="Korzinka image" class="daypromo-img" width="250" height="135">
           <div class="daypromo-info">
             <a href="https://korzinka.uz/" class="daypromo-link">Korzinka.uz</a>
             <h4 class="daypromo-info__heading">В четверг скидки на рыбу</h4>
             <div class="daypromo-info__footer">
-              <div class="ddyif-wrapper">
+              <div class="dayif-wrapper">
                 <div class="dayif-wrapper__head">
-                  <p class="ddyif-text">Скидки</p>
+                  <p class="dayif-text">Скидки</p>
                   <div class="dayif-wrapper__promos">
                     <span class="dayif-cashback">Кешбэк</span>
                     <span class="dayif-percent">3%</span>
@@ -93,14 +93,14 @@
           </div>
         </div>
         <div class="daypromo-card">
-          <img src="public/day-promos/mango.jpg" alt="mango image" class="daypromo-img" width="250" width="135">
+          <img src="public/day-promos/mango.jpg" alt="mango image" class="daypromo-img" width="250" height="135">
           <div class="daypromo-info">
             <a href="https://shop.mango.com/uz/en" class="daypromo-link">MANGO</a>
             <h4 class="daypromo-info__heading">Акция 1+1</h4>
             <div class="daypromo-info__footer">
-              <div class="ddyif-wrapper">
+              <div class="dayif-wrapper">
                 <div class="dayif-wrapper__head">
-                  <p class="ddyif-text">Акции</p>
+                  <p class="dayif-text">Акции</p>
                   <div class="dayif-wrapper__promos">
                     <span class="dayif-cashback">Кешбэк</span>
                     <span class="dayif-percent">3%</span>
@@ -112,14 +112,14 @@
           </div>
         </div>
         <div class="daypromo-card">
-          <img src="public/day-promos/texnomart.jpg" alt="texnomart image" class="daypromo-img" width="250" width="135">
+          <img src="public/day-promos/texnomart.jpg" alt="texnomart image" class="daypromo-img" width="250" height="135">
           <div class="daypromo-info">
             <a href="https://texnomart.uz/uz/" class="daypromo-link">TEXNOMART</a>
             <h4 class="daypromo-info__heading">До — 60% на бытовую технику в ТЦ «Samarkand Darvoza»</h4>
             <div class="daypromo-info__footer">
-              <div class="ddyif-wrapper">
+              <div class="dayif-wrapper">
                 <div class="dayif-wrapper__head">
-                  <p class="ddyif-text">Скидки</p>
+                  <p class="dayif-text">Скидки</p>
                   <div class="dayif-wrapper__promos">
                     <span class="dayif-cashback">Кешбэк</span>
                     <span class="dayif-percent">3%</span>
@@ -131,14 +131,14 @@
           </div>
         </div>
         <div class="daypromo-card">
-          <img src="public/day-promos/makro.jpg" alt="makro image" class="daypromo-img" width="250" width="135">
+          <img src="public/day-promos/makro.jpg" alt="makro image" class="daypromo-img" width="250" height="135">
           <div class="daypromo-info">
             <a href="https://makromarket.uz/" class="daypromo-link">Makro</a>
             <h4 class="daypromo-info__heading">При покупке CIF пачка губок Salixan БЕСПЛАТНО</h4>
             <div class="daypromo-info__footer">
-              <div class="ddyif-wrapper">
+              <div class="dayif-wrapper">
                 <div class="dayif-wrapper__head">
-                  <p class="ddyif-text">Акции</p>
+                  <p class="dayif-text">Акции</p>
                   <div class="dayif-wrapper__promos">
                     <span class="dayif-cashback">Кешбэк</span>
                     <span class="dayif-percent">3%</span>
@@ -151,9 +151,165 @@
         </div>
         <button class="button__add-promotions show-more__button" type="button">Показать все</button>
       </div>
-      <div class="toppromo"></div>
+      <div class="toppromo">
+        <div class="toppromo-wrapper">
+          <span class="toppromo-left"></span>
+          <span class="toppromo-right"></span>
+          <h3 class="toppromo-heading">Топовые скидки</h3>
+          <hr class="toppromo-hr">
+          <div class="toppromo-selects">
+            <input type="radio" name="top-promo" id="top-promo-1" class="toppromo-input" checked>
+            <label class="toppromo-label" for="top-promo-1">Питание</label>
+            <input type="radio" name="top-promo" id="top-promo-2" class="toppromo-input">
+            <label class="toppromo-label" for="top-promo-2">Связь</label>
+            <input type="radio" name="top-promo" id="top-promo-3" class="toppromo-input">
+            <label class="toppromo-label" for="top-promo-3">Магазины</label>
+          </div>
+          <div class="toppromo-cards">
+            <div class="toppromo-card">
+              <span class="toppromo-cards__date">До 29 февраля</span>
+              <img src="public/top-promos/costy.jpg" alt="Costy image" class="toppromo-card__img" width="290" height="185">
+              <div class="daypromo-info">
+                <a href="https://www.instagram.com/gosty_tashkent/?hl=ru" class="daypromo-link">Gosty</a>
+                <h4 class="daypromo-info__heading">Каждый вторник — 20% на все меню</h4>
+                <div class="daypromo-info__footer">
+                  <div class="dayif-wrapper">
+                    <div class="dayif-wrapper__head">
+                      <p class="dayif-text">Скидки</p>
+                      <div class="dayif-wrapper__promos">
+                        <span class="dayif-cashback">Кешбэк</span>
+                        <span class="dayif-percent">3%</span>
+                      </div>
+                    </div>
+                    <p class="daif-text">Рестораны</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="toppromo-card">
+              <span class="toppromo-cards__date toppromo-cards__date--2">71:59:59</span>
+              <img src="public/top-promos/shosh.jpg" alt="Shosh image" class="toppromo-card__img" width="290" height="185">
+              <div class="daypromo-info">
+                <a href="https://www.instagram.com/shosh_artt/" class="daypromo-link">Shosh</a>
+                <h4 class="daypromo-info__heading">Скидки на еду и напитки</h4>
+                <div class="daypromo-info__footer">
+                  <div class="dayif-wrapper">
+                    <div class="dayif-wrapper__head">
+                      <p class="dayif-text">Скидки</p>
+                      <div class="dayif-wrapper__promos">
+                        <span class="dayif-cashback">Кешбэк</span>
+                        <span class="dayif-percent">3%</span>
+                      </div>
+                    </div>
+                    <p class="daif-text">Кафе</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="toppromo-card">
+              <span class="toppromo-cards__date">До 29 февраля</span>
+              <img src="public/top-promos/petrovic.jpg" alt="Costy image" class="toppromo-card__img" width="290" height="185">
+              <div class="daypromo-info">
+                <a href="https://www.instagram.com/gosty_tashkent/?hl=ru" class="daypromo-link">Petrovich</a>
+                <h4 class="daypromo-info__heading">Ланч по выгодной цене и 2% кешбэк по промокоду</h4>
+                <div class="daypromo-info__footer">
+                  <div class="dayif-wrapper">
+                    <div class="dayif-wrapper__head">
+                      <p class="dayif-text">Скидки</p>
+                      <div class="dayif-wrapper__promos">
+                        <span class="dayif-cashback">Кешбэк</span>
+                        <span class="dayif-percent">3%</span>
+                      </div>
+                    </div>
+                    <p class="daif-text">Рестораны</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="toppromo-card">
+              <span class="toppromo-cards__date">До 29 февраля</span>
+              <img src="https://picsum.photos/seed/picsum/290/185" class="toppromo-card__img" alt="Costy image" width="290" height="185">
+              <div class="daypromo-info">
+                <a href="https://www.instagram.com/gosty_tashkent/?hl=ru" class="daypromo-link">Petrovich</a>
+                <h4 class="daypromo-info__heading">Ланч по выгодной цене и 2% кешбэк по промокоду</h4>
+                <div class="daypromo-info__footer">
+                  <div class="dayif-wrapper">
+                    <div class="dayif-wrapper__head">
+                      <p class="dayif-text">Скидки</p>
+                      <div class="dayif-wrapper__promos">
+                        <span class="dayif-cashback">Кешбэк</span>
+                        <span class="dayif-percent">3%</span>
+                      </div>
+                    </div>
+                    <p class="daif-text">Рестораны</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="toppromo-slider">
+            <span class="toppromo-slider__dot"></span>
+            <span class="toppromo-slider__dot toppromo-slider__dot--active"></span>
+            <span class="toppromo-slider__dot"></span>
+          </div>
+        </div>
+        <div class="welcome">
+          <h3 class="welcome-heading">Добро пожаловать на сайт</h3>
+          <p class="welcome-text">Ваш надёжный помощник в поиске лучших скидок и акций различных компаний!</p>
+          <p class="welcome-desc">Мы собрали для вас все cамые выгодные предложения, чтобы вы могли сэкономить свои деньги и получить максимум удовольствия от покупок.</p>
+          <p class="welcome-expandtext">Развернуть текст</p>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">FAQ</h3>
+          <ul class="faq-accordions">
+            <li class="faq-accordions__item">
+              <input class="faq-accordions__item-input" type="radio" name="accordion" id="first" checked>
+              <label class="faq-accordions__item-label" for="first">Какие компании представлены на сайте?
+                <span class="faq-accordions__item-span">
+                  <svg class="faq-accordions__item-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"><path stroke="currentColor" stroke-width="2" d="M0 16h32M16 32V0"/></svg>
+                </span>
+              </label>
+              <div class="faq-accordions__item-content">
+                <p class="faq-accordions__item-text">Чтобы быть в курсе новых скидок и акций на сайте, вы можете подписаться <br> на наш 
+                <a href="https://t.me/dc_cyrex" class="faq-accordions__item-text-link">телеграм канал</a> или следить за новостями.
+                </p>
+                <p class="faq-accordions__item-text">Мы регулярно отправляем информацию о новых предложениях и акциях нашим подписчикам, чтобы они всегда могли быть в курсе последних скидок и эксклюзивных предложений.</p>
+                <p class="faq-accordions__item-text">Также можно регулярно посещать сайт и проверять разделы с акциями и скидками</p>
+              </div>
+            </li>
+            <li class="faq-accordions__item">
+              <input class="faq-accordions__item-input" type="radio" name="accordion" id="second">
+              <label class="faq-accordions__item-label" for="second">Как я могу быть в курсе новых скидок и акций на сайте?
+                <span class="faq-accordions__item-span">
+                  <svg class="faq-accordions__item-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"><path stroke="currentColor" stroke-width="2" d="M0 16h32M16 32V0"/></svg>
+                </span>
+              </label>
+              <div class="faq-accordions__item-content">
+                <p class="faq-accordions__item-text">Чтобы быть в курсе новых скидок и акций на сайте, вы можете подписаться <br> на наш 
+                  <a href="https://t.me/dc_cyrex" class="faq-accordions__item-text-link">телеграм канал</a> или следить за новостями.</p>
+                <p class="faq-accordions__item-text">Мы регулярно отправляем информацию о новых предложениях и акциях нашим подписчикам, чтобы они всегда могли быть в курсе последних скидок и эксклюзивных предложений.</p>
+                <p class="faq-accordions__item-text">Также можно регулярно посещать сайт и проверять разделы с акциями и скидками</p>
+              </div>
+            </li>
+            <li class="faq-accordions__item">
+              <input class="faq-accordions__item-input" type="radio" name="accordion" id="third">
+              <label class="faq-accordions__item-label" for="third">Могу ли я поделиться найденными скидками и акциями с друзьями?
+                <span class="faq-accordions__item-span">
+                  <svg class="faq-accordions__item-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"><path stroke="currentColor" stroke-width="2" d="M0 16h32M16 32V0"/></svg>
+                </span>
+              </label>
+              <div class="faq-accordions__item-content">
+                <p class="faq-accordions__item-text">Чтобы быть в курсе новых скидок и акций на сайте, вы можете подписаться <br> на наш 
+                  <a href="https://t.me/dc_cyrex" class="faq-accordions__item-text-link">телеграм канал</a> или следить за новостями.</p>
+                <p class="faq-accordions__item-text">Мы регулярно отправляем информацию о новых предложениях и акциях нашим подписчикам, чтобы они всегда могли быть в курсе последних скидок и эксклюзивных предложений.</p>
+                <p class="faq-accordions__item-text">Также можно регулярно посещать сайт и проверять разделы с акциями и скидками</p> 
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-   </main>
+  </main>
   <script src="src/js/main.js"></script>
 </body>
 </html>

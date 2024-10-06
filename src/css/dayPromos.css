@@ -58,12 +58,14 @@
 .daypromo-info__footer {
     height: 53px;
     color: var(--promo-count-color);
+    font-size: 14px;
+    line-height: 1.4;
 }
-.ddyif-wrapper {
+.dayif-wrapper {
     display: flex;
     flex-direction: column;
 }
-.ddyif-wrapper * {
+.dayif-wrapper * {
     margin: 0;
 }
 .dayif-wrapper__head {
@@ -73,7 +75,7 @@
 .dayif-wrapper__promos {
     display: flex;
 }
-.ddyif-text {
+.dayif-text {
 }
 .dayif-wrapper__promos {
     float: right;

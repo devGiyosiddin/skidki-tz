@@ -6,9 +6,13 @@
     --header-text-color: #001c1c;
     --logo-color: #023131;
     --tomato: #ff2e4c;
+    --tomato-2: #ffedef;
     --daypromo-bg-color: #f0f6f6;
     --promo-count-color: #607282;
     --border-color: #bedada;
+    --toppromo-heading: #248888;
+    --toppromo-date: #e1102e;
+    --slider-dot: #bedada;
 }
 
 html {
@@ -69,6 +73,10 @@ img {
 /* MAIN-CONTENT */
 .main-content{
     flex-grow: 1;
+}
+
+.main-content__container {
+    display: flex;
 }
 
 
