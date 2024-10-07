@@ -44,7 +44,8 @@
 
 /* ACCORDION */
 .faq-accordions {
-    width: 970px;
+    max-width: 970px;
+    width: 100%;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -57,7 +58,8 @@
 
 .faq-accordions__item-content {
     max-height: 0;
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
     font-size: 18px;
     line-height: 1.5;
     color: var(--text-color);

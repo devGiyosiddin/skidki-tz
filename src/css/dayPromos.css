@@ -1,7 +1,10 @@
 .daypromo {
-    width: 290px;
+    max-width: 290px;
     padding: 20px;
     background: var(--daypromo-bg-color);
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .daypromo-title {
     font-weight: 700;
